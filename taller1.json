@@ -1,0 +1,32 @@
+{
+  "datosTaller": {
+    "nombre": "TallerLanchas, C.A.",
+    "numeroRIF": 210301344,
+    "direccion": "Urb. Las Acacias",
+    "telefonoTaller": 2411234567,
+    "email": "tallerlanchastark@gmail.com"
+  },
+  "facturas": [
+    {
+      "numeroFactura": 12345,
+      "nombreRazonSocial": "El Lanchero, C.A.",
+      "domicilioFiscal": "Urb. El Bosque",
+      "RIFoCI": 910301344,
+      "letraIdent": "J",
+      "telefono": 4145234567,
+      "porcentajeIVA": 12,
+      "impuestoIVA": 123.45,
+      "anulado": false,
+      "impreso": false
+    }
+  ],
+  "gastos": [
+    {
+      "id": 1,
+      "numeroFactura": 12345,
+      "concepto": "Mantenimiento de Motor",
+      "precioUnitario": 1000,
+      "cantidadElementos": 1
+    }
+  ]
+}

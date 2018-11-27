@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Crear Factura</title>
+	<link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body>
+	
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+
+	
+	<a title="logo" href="paginaprincipal.html"><img src="logo2.png" alt="logo" /></a>
+	
+	<li><a href="paginaprincipal.html">Pagina principal</a>
+</ul>
+
+<!-- Contenido principal -->
+<h1>Crear Factura</h1>
+
+<p>Introducir datos del cliente:
+
+<form action="https://vtarkanyi.github.io/Taller3Proyecto/procesofactura.php" method="post">
+	
+	<!-- Campo de entrada de datos -->
+	<input type="text" name="nombre" autocomplete="off"
+		placeholder="Nombre o Razon Social" maxlength="36" size="36">
+	
+	<select name="FormatoCodigoRIF" class="formulario">
+		<option value="V">V</option> <!--“V”: Para Venezolanos.-->
+		<option value="J">J</option> <!--“J”: Contribuyentes Jurídicos, es decir, empresas con registros mercantiles.-->
+		<option value="E">E</option> <!--“E”: Para Extranjeros con cédula de identidad.-->
+		<option value="P">P</option> <!--“P”: Personas Naturales extranjeras sin cédula de identidad. Siendo su identificación el número del pasaporte.-->
+		<option value="G">G</option> <!--“G”: Entes Gubernamentales, la cual incluye entidades municipales, ministerios y otros organismos del Estado.-->
+		<option value="C">C</option> <!--“C”: Consejos Comunales, Comunas y todas las organizaciones del Poder Popular.-->
+	</select>
+	
+	<input type="number" name="RIFoCedula" autocomplete="off"
+		placeholder="Cedula o RIF" maxlength="12" size="12" min="1">
+	
+	<p>
+	
+	<input type="text" name="DomicilioFiscal" autocomplete="off"
+		placeholder="Domicilio Fiscal" maxlength="80" size="80">
+		
+	<p>
+	
+	<input type="text" name="Concepto / Descripcion del Servicio" autocomplete="off"
+	placeholder="Concepto / Descripcion del Servicio" maxlength="50" size="50">
+	
+	<input type="number" name="Precio" autocomplete="off"
+	placeholder="Precio" maxlength="20" size="20">
+	
+	<p>
+	
+	<input type="submit" value="Continuar" />
+	
+</form>
+
+
+
+
+<address>TallerLanchas, C.A., RIF: J-21030134-4<br>
+		 Urb. Las Acacias, Valencia, Edo. Carabobo<br>
+		 TLF: 0241-1234567  Email: tallerlanchastark@gmail.com
+</address>
+
+</body>
+
+</html>

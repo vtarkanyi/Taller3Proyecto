@@ -1,0 +1,13 @@
+Host 		ec2-54-235-156-60.compute-1.amazonaws.com
+
+Database 	d22s1rnkqds3tn
+
+User 		ubutexvduyqunx
+
+Port 		5432
+
+Password 	6599d58831f0fbdaf080394b9bfaa4b4d19d1be111f72f9d04737f374bf56b9b
+
+URI 		postgres://ubutexvduyqunx:6599d58831f0fbdaf080394b9bfaa4b4d19d1be111f72f9d04737f374bf56b9b@ec2-54-235-156-60.compute-1.amazonaws.com:5432/d22s1rnkqds3tn
+
+Heroku CLI	heroku pg:psql postgresql-metric-97159 --app tallerlanchas
